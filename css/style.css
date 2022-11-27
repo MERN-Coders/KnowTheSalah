@@ -36,19 +36,11 @@
 	box-shadow: inset 0 0 5px rgb(158, 158, 158);
 	height: 10px;
 	border-radius: 10px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	-ms-border-radius: 10px;
-	-o-border-radius: 10px;
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
 	background: #cfcfcf;
 	border-radius: 10px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	-ms-border-radius: 10px;
-	-o-border-radius: 10px;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
@@ -89,18 +81,10 @@ header {
 	font-size: 15px;
 	padding-right: 12px;
 	transition: 0.3s ease-in all;
-	-webkit-transition: 0.3s ease-in all;
-	-moz-transition: 0.3s ease-in all;
-	-ms-transition: 0.3s ease-in all;
-	-o-transition: 0.3s ease-in all;
 }
 .sidebar ul .nav-item .nav-link:hover {
 	background-color: var(--link-color);
 	border-radius: 4px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	-ms-border-radius: 4px;
-	-o-border-radius: 4px;
 	color: var(--default-white);
 }
 .sidebar .nav span {
@@ -112,9 +96,6 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
 	user-select: none;
 	color: #252525;
 }
@@ -151,19 +132,11 @@ header {
 	box-shadow: -2px -2px 6px rgb(255 255 255 / 0%),
 		2px 2px 6px rgb(157 157 157 / 80%);
 	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-ms-border-radius: 5px;
-	-o-border-radius: 5px;
 }
 .btn-ex:active {
 	box-shadow: inset -18px -2px 0px rgb(255 255 255 / 0%),
 		inset 1px 1px 5px rgb(157 157 157 / 80%) !important;
 	transform: scale(0.97);
-	-webkit-transform: scale(0.97);
-	-moz-transform: scale(0.97);
-	-ms-transform: scale(0.97);
-	-o-transform: scale(0.97);
 }
 .btn-ex i {
 	padding-right: 4px;
@@ -199,18 +172,8 @@ header {
 	line-height: 44px;
 	border: 1px solid rgba(0, 0, 0, 0.11);
 	border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-ms-border-radius: 50%;
-	-o-border-radius: 50%;
 	transition: all 0.3s;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
 	box-shadow: inset 0 0 0 1px rgb(255 255 255 / 10%),
-		0 2px 6px rgb(0 0 0 / 10%);
-	-webkit-box-shadow: inset 0 0 0 1px rgb(255 255 255 / 10%),
 		0 2px 6px rgb(0 0 0 / 10%);
 	text-align: center;
 }
@@ -276,16 +239,8 @@ header {
 	border: 2px solid var(--change-color);
 	background-color: var(--light-blue);
 	border-radius: 50px;
-	-webkit-border-radius: 50px;
-	-moz-border-radius: 50px;
-	-ms-border-radius: 50px;
-	-o-border-radius: 50px;
 	cursor: pointer;
 	transition: all 0.3s;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
 }
 .explore-btn button:hover {
 	color: white;
@@ -343,10 +298,6 @@ section[id] {
 	bottom: -9px;
 	left: 50%;
 	transform: translate(-50%);
-	-webkit-transform: translate(-50%);
-	-moz-transform: translate(-50%);
-	-ms-transform: translate(-50%);
-	-o-transform: translate(-50%);
 }
 .content h4 {
 	margin-bottom: 13px;
@@ -384,15 +335,7 @@ section[id] {
 	color: var(--default-light);
 	background-color: #4ee4fffc;
 	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-ms-border-radius: 5px;
-	-o-border-radius: 5px;
 	transition: 0.3s all;
-	-webkit-transition: 0.3s all;
-	-moz-transition: 0.3s all;
-	-ms-transition: 0.3s all;
-	-o-transition: 0.3s all;
 }
 .topic-next button:hover,
 .topic-prev button:hover {
@@ -436,10 +379,6 @@ footer .footer-section a span {
 	border: 1px solid var(--report-border);
 	padding: 4px 11px;
 	border-radius: 50px;
-	-webkit-border-radius: 50px;
-	-moz-border-radius: 50px;
-	-ms-border-radius: 50px;
-	-o-border-radius: 50px;
 }
 /* <-----|-----<>responsive part<>-----|-----> */
 @media (min-width: 1060px){
@@ -465,10 +404,6 @@ footer .footer-section a span {
 		z-index: 999;
 		top: 105px;
 		transition: 0.5s ease-out;
-		-webkit-transition: 0.5s ease-out;
-		-moz-transition: 0.5s ease-out;
-		-ms-transition: 0.5s ease-out;
-		-o-transition: 0.5s ease-out;
 	}
 	.fade-sidebar {
 		left: 0;
